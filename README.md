@@ -25,3 +25,18 @@ To build and install, just incant the typical mantra:
      make test
      make install
 
+## DOWNLOAD & INSTALLATION FOR DUMMIES
+
+Install cpan: 
+    
+    # Redhat/CentOs/Fedora
+    sudo yum install cpan
+    
+    # Ubuntu/Mint
+    sudo apt-get install build-essential # Guessing here
+
+Install devel-nytprof and its dependencies:
+
+    sudo perl -MCPAN -e shell # Invoking with a non-root  user didn't work
+    install Devel::NYTProf
+
